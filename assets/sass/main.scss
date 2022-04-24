@@ -4,9 +4,10 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
+@import 'libs/header';
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
-@import './header.scss';
+@import 'header.scss';
 
 /*
 	Prologue by HTML5 UP
@@ -761,7 +762,7 @@
 
 			&.one {
 				background-color: #81918E;
-				background-image: url('../../images/banner.jpg');
+				background-image: url('../../images/top_banner.png');
 			}
 
 			&.two {
